@@ -1,0 +1,29 @@
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.menu-item {
+  top: 0;
+  margin-top: 0;
+  padding: 0 20px;
+  border-color: #001529;
+  border-bottom: 0;
+  cursor: pointer;
+  color: #fff;
+}
+.menu-item:hover {
+  background: red;
+}
