@@ -6,8 +6,8 @@ const { Header } = Layout;
 const appBar = [
   {
     key: 1,
-    label: "Dashboard",
-    link: "/dashboard",
+    label: "Home",
+    link: "/home",
   },
   {
     key: 2,
@@ -15,16 +15,20 @@ const appBar = [
     link: "/list",
   },
   {
-    key: 3,
-    label: "Logout",
-    link: "/home",
+    key: 5,
+    label: "About",
+    link: "/about",
+  },
+  {
+    key: 4,
+    label: "Login",
+    link: "/login",
   },
 ];
 
 export default function HeaderLayout(params) {
   const history = useNavigate();
   const handleClickNavBar = (el) => {
-    console.log(el);
     history(el.link);
   };
   return (

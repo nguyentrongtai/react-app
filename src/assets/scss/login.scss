@@ -1,0 +1,13 @@
+.login-layout {
+  display: flex;
+  height: calc(100vh - 133px);
+  justify-content: center;
+  align-items: center;
+  .ant-form {
+    width: 30%;
+  }
+  .ant-form-item-label{
+    width: 20%;
+    text-align: left;
+  }
+}

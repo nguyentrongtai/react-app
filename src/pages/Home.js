@@ -25,7 +25,6 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
   }
 );
 const App = () => {
-  console.log("ja");
   return (
     <Layout>
       <Layout>
